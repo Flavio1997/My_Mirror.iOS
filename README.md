@@ -1,5 +1,3 @@
-# My_Mirror.iOS
-My Mirror for iOS
 
 
 My_Mirror.iOS
