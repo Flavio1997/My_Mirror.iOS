@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:windows="clr-namespace:Xamarin.Forms.PlatformConfiguration.WindowsSpecific;assembly=Xamarin.Forms.Core"
+             x:Class="My_Mirror.HomePage"
+             xmlns:local="clr-namespace:Ads"
+             xmlns:Ad="clr-namespace:Ads;assembly=Ads"
+             BackgroundColor="Black"
+             Title="Home">
+
+
+    <StackLayout BackgroundColor="Black"
+                 x:Name="stackLayout"
+                 HorizontalOptions="FillAndExpand"
+                 VerticalOptions="FillAndExpand"
+                 Orientation="Vertical">
+
+
+
+
+        <Button Clicked="NavigateButton_OnClicked"
+            Text="Look in the mirror"
+            BorderRadius="5"
+            BackgroundColor="Gray"
+            TextColor="White"
+            Margin= "30, 30, 30, 30"          
+            BorderColor="Red"
+            BorderWidth="2"
+            FontSize="30"
+            VerticalOptions="FillAndExpand"></Button>
+
+
+        
+
+    </StackLayout>
+
+    
+
+</ContentPage>

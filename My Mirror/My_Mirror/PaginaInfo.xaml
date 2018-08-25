@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="My_Mirror.PaginaInfo"
+             BackgroundColor="Black"
+             Title="Info">
+
+
+
+
+    <ScrollView  Orientation="Vertical" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+
+        <StackLayout BackgroundColor="Black"
+                 x:Name="stackLayout"
+                 Padding="20"
+                 Spacing="10"
+                 Orientation="Vertical"
+                 HorizontalOptions="CenterAndExpand"
+                 VerticalOptions="CenterAndExpand">
+
+
+
+        <Image Source="Icona.png"                    
+          HorizontalOptions="Center"/>
+
+       
+
+        <Label Text="My Mirror"
+           TextColor="White"
+           HorizontalTextAlignment="Center"/>
+
+
+
+
+
+
+
+    <Label Text="Version 3.2"
+           TextColor="White"
+           HorizontalTextAlignment="Center"/>
+
+
+
+
+
+    <Button Clicked="NavigateButton1_OnClicked"
+            Text="Support"
+            BackgroundColor="Gray"
+            TextColor="White"
+            BorderColor="Red"
+            BorderWidth="2"
+            WidthRequest="200"/>
+          
+
+
+    <Button Clicked="NavigateButton2_OnClicked"
+                Text="Other great apps"
+                BackgroundColor="Gray"
+                TextColor="White"
+                BorderColor="Red"
+                BorderWidth="2"
+                WidthRequest="200"/>
+                
+
+    <Button Clicked="NavigateButton3_OnClicked"
+                Text="Remove special offers"
+                BackgroundColor="Gray"
+                TextColor="White"
+                BorderColor="Red"
+                BorderWidth="2"
+                WidthRequest="200"/>
+               
+
+
+  </StackLayout>
+    </ScrollView>
+</ContentPage>
