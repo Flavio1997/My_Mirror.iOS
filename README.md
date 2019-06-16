@@ -29,5 +29,3 @@ Project trailer: https://www.youtube.com/watch?v=CrQR2ypqVAw
 
 
 Built with Xamarin.Forms
-
-VISUAL STUDIO REQUIRED
